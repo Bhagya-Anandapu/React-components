@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: rgb(145, 80, 175);
 }
 
 .App-logo {
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: blueviolet;
 }
 
 .App-link {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app-container {
+  background-image: url('./guitar.jpeg'); /* Adjust the URL to the path of your background image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(177, 134, 42);
 }
